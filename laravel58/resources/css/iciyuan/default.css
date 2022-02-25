@@ -1,0 +1,924 @@
+.friendship {
+    line-height: 43px;
+    color: #fff;
+    border-bottom: 1px solid #fff;
+    border-top: 1px solid #fff;
+    margin-top: 20px;
+}
+.friendship .fri-con {
+	font-size: 14px;
+    padding: 15px 0;
+    line-height: 2em;
+}
+.friendship .fri-con span {
+    font-size: 14px;
+    color: #fff;
+    margin-right: 30px;
+    vertical-align: top;
+}
+.fri-con-link{
+    display: inline-block;
+    width: 1100px;
+}
+.friendship .fri-con a {
+    font-size: 12px;
+    color: #fff;
+}
+.friendship .fri-con a:hover {
+    text-decoration: underline;
+}
+.support {
+    color: #fff;
+}
+.support p {
+    font-size: 14px;
+    margin-top: 25px;
+}
+
+/*尾*/
+.m-ft{
+    font-size: 0;
+    background: #707070;
+}
+.m-ft dl{
+    display: inline-block;
+    padding: 60px 85px 0 0;
+    color: #fff;
+    vertical-align: top;
+    box-sizing: content-box;
+}
+.m-ft dl dt{
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.m-ft dl dd{
+    font-size: 14px;
+}
+.m-ft dl dd a:link,.m-ft dl dd a:visited{
+    color: #fff;
+    text-decoration: none;
+}
+.m-ft dl dd a:hover{
+    color: #fff;
+    text-decoration: underline;
+}   
+.m-ft .u-ft-about{
+    width: 330px;
+    padding: 60px 85px 0 85px;
+
+}
+.u-ft-about dd{
+    line-height: 40px;
+    font-size: 14px;
+}
+.u-ft-core{
+    width: 150px;
+}
+.m-ft .u-ft-core dd{
+    font-size: 16px;
+    padding:10px 0; 
+    text-align: center;
+}
+.m-ft dd a{
+    color: #fff;
+} 
+.m-ft .u-ft-other dd{
+    font-size: 16px;
+    padding:10px 0; 
+    text-align: center;
+}
+.m-ft .u-ft-contact{
+    padding: 60px 0 0 0;
+}
+.u-ft-contact dd{
+    padding:10px 0; 
+    width: 300px;
+}
+
+.m-ft dl.u-ft-contact dt{
+    text-align: left;
+}
+/*第一块*/
+.m-index-bg{
+        width: 100%;
+ /*       background: #ebf7fc url(/styles/images/index/index-bg.png) no-repeat top;*/
+        /*font:12px/1.5 tahoma,arial,"Hiragino Sans GB","Microsoft Yahei",\5b8b\4f53;*/
+       
+    }
+    .f-pt50{
+         padding-top: 50px;
+    }
+    /*菜单栏*/
+    .m-menu{
+        background: #fff;
+        padding: 0 30px 20px;
+        font-size: 0;
+    }
+    .m-head{
+        background: #fff;
+        padding: 0 20px 0;
+        font-size: 0;
+    }
+    .u-menu-logo{
+        width: 69px;
+        height: 30px;
+        display: inline-block;
+        background-image: url(/styles/images/common/logo-beta.png);
+        background-size: 69px 30px;
+        background-repeat: no-repeat;
+        margin-top: 12px;
+        margin-right: 35px;
+    }
+    .u-menu>ul{
+        color: #000;
+        display: inline-block;
+        padding-left: 0;
+        margin-top: 10px;
+        vertical-align: top;
+        margin-bottom: 2px;
+        height: 31px;
+        float: left;
+    }
+    .m-head .u-menu{
+        display: inline-block;
+        border-bottom: 1px solid #ededed;
+        vertical-align: top;
+        margin-top: 0px;
+        margin-bottom: 25px;
+        width: 1045px;
+    }
+    
+    .u-menu>ul li{
+        display: inline-block;
+        margin-right: 23px;
+        cursor: pointer;
+    }
+    .u-menu>ul li.z-current a,.u-menu>ul li a.z-current:link{
+        color: #05b1dc;
+        border-bottom: 2px solid #05b1dc;
+    }
+    .u-menu>ul li a.z-current:visited{
+        color: #05b1dc;
+        border-bottom: 2px solid #05b1dc;
+    }
+    
+    .u-menu>ul li a{
+        display: block;
+        height: 34px;
+        font-size: 18px;
+    }
+    .u-menu>ul li a:link{
+        color: #000;
+        text-decoration: none;
+    }
+    .u-menu>ul li a:visited{
+        color: #000;
+        text-decoration: none;
+    }
+    .u-menu>ul li a:hover{
+        color: #05b1dc;
+        text-decoration: none;
+        border-bottom: 2px solid #05b1dc; 
+    }
+    .u-index-rigster{
+        display: inline-block;
+        margin-top:10px;
+        margin-right: 10px;
+        font-size: 14px;
+        color: #000;
+        text-decoration: none;
+    }
+    .u-index-login{
+        display: inline-block;
+        margin: 10px 0 0 7px;
+        font-size: 14px;
+        color: #000;
+        text-decoration: none;
+    }
+    .u-index-rigster:hover{
+        color: #05b1dc;
+    }
+    .u-index-login:hover{
+        color: #05b1dc;
+    }
+    .u-logined{
+        font-size: 14px;
+        color: #333;
+    }
+    .u-logined a{
+        color: #333;
+        padding: 0 9px;
+    }
+    .u-logined a:link,.u-logined a:visited{
+        color: #333;
+    }
+    .u-logined a:hover{
+        color: #00baff;
+    }
+    .u-logined a.u-recharge:link,.u-logined a.u-recharge:visited,.u-logined a.u-recharge:hover{
+        color: #ff5e5b;
+    }
+    /*搜索、登录*/
+    .u-search-box{
+    margin-left: 0px;
+    margin-top: 10px;
+    display: inline-block;
+}
+.u-search-box>i{
+    position: absolute;
+    left: 5px;
+    top: 6px;
+    height: 17px;
+    width: 17px;
+    background: url(/styles/images/common/sprite.png) no-repeat -96px -115px;
+}
+.u-search-box input {
+    width: 225px;
+    height: 24px;
+    padding: 0 5px 0 20px;
+    border-top: 1px solid #a5a6a6;
+    border-bottom: 1px solid #a5a6a6;
+    border-left: 1px solid #a5a6a6;
+    border-right: none;
+    vertical-align: top;
+    outline: none;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+}
+.u-search-box button{
+    height: 26px;
+    width: 50px;
+    color: #a5a6a6;
+    background: #fff;
+    border: 1px solid #a5a6a6;
+    cursor: pointer;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+.u-search-box:hover i{
+    background: url(/styles/images/common/sprite.png) no-repeat -114px -115px;
+}
+.u-search-box:hover input{
+    border-top: 1px solid #05b1dc;
+    border-bottom: 1px solid #05b1dc;
+    border-left: 1px solid #05b1dc;
+}
+.u-search-box:hover button{
+    color: #05b1dc;
+    border: 1px solid #05b1dc;
+}
+.u-logined-list{
+    height: 43px;
+    width: 150px;
+    display: inline-block;
+    vertical-align: middle; 
+}
+.u-logined-list ul{
+   top:44px; 
+   height: 0;
+   overflow: hidden;
+   transition: height 500ms;
+}
+.u-logined-list:hover ul{
+    height: 148px;
+}
+.u-logined-list:hover span{
+    background: #fbfbfb;
+    color: #05b1dc;
+}
+.u-logined-list span{
+    width: 120px;
+    height: 100%;
+    display: inline-block;
+    padding: 0 20px 0 10px;
+    line-height: 43px;
+    cursor: pointer;
+    text-align: center;
+}
+.u-logined-list span i{
+    width: 11px;
+    height: 7px;
+    display: block;
+    background: url(/styles/images/common/sprite.png) no-repeat -112px -146px;
+    right: 6px;
+    top:19px;
+}
+.u-logined-list:hover span i{
+     background: url(/styles/images/common/sprite.png) no-repeat -96px -146px;
+}
+.u-logined-list ul li{
+    height: 48px;
+    width: 150px;
+    text-align: center;
+    line-height: 48px;
+    display: block;
+    border-bottom: 1px solid #ededed;
+    cursor: pointer;
+    background: #fff;
+}
+.u-logined-list ul li a{
+    width: 132px;
+    height: 100%;
+    display: inline-block;
+}
+.u-logined-list li:hover {
+    background: #e5e9ef;
+}
+.u-logined-list ul li a:link,.u-logined-list ul li a:visited{
+    color: #333;
+}
+.u-logined-list ul li a:hover{
+    color: #00baff;
+}
+/*打赏弹框*/
+.m-give-money {
+    width: 780px;
+    height: 440px;
+    background: #fff;
+    border-radius: 4px;
+    position: fixed;
+    top: 50%;
+    margin-top: -250px;
+    left: 50%;
+    margin-left: -425px;
+    padding-left: 70px;
+    padding-top: 60px;
+    z-index: 101;
+    box-shadow: 0 0 6px #ccc;
+}
+.u-close {
+    display: block;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: -15px;
+    right: -15px;
+    background: url(/styles/images/common/sprite.png) no-repeat -246px -47px;
+}
+.m-give-money ul {
+    height: 168px;
+}
+.m-give-money li {
+    display: inline-block;
+    margin-right: 20px;
+    width: 104px;
+    height: 150px;
+    border: 1px solid #fff;
+}
+.m-give-money .curs a {
+    border-color: #05b2dd;
+}
+
+.m-give-money li .lw {
+    width: 102px;
+    height: 102px;
+    border: 1px solid transparent;
+    border-radius: 6px;
+    display: block;
+    color: #333;
+}
+.m-give-money li.z-current .tj{
+    display: block;
+}
+.m-give-money li a div{
+    border: 1px solid #fff;
+}
+.m-give-money li a div:hover,.m-give-money li.z-current a div{
+    border: 1px solid #00b7ee;
+    border-radius: 6px;
+}  
+.m-give-money li a div img{
+    border-radius: 6px;
+} 
+.m-give-money li .tj {
+    margin-top: 22px;
+    float: left;
+    margin-left: 20px;
+    display: none;
+}
+.m-give-money li .tj a {
+    display: block;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    color: #fff;
+    border-radius: 50%;
+    float: left;
+    background: #50c9e7;
+    font-size: 14px;
+}
+.m-give-money li .tj span {
+    float: left;
+    line-height: 20px;
+    margin: 0 8px;
+}
+.p-much {
+    height: 44px;
+    float: left;
+}
+.p-much .alls {
+    float: left;
+    margin-right: 36px;
+    height: 42px;
+    line-height: 46px;
+}
+.p-much .alls span {
+    font-size: 32px;
+    color: #05b2dd;
+}
+.p-much a {
+    display: block;
+    line-height: 42px;
+    float: left;
+    text-align: center;
+    margin-right: 10px;
+    width: 120px;
+    font-size: 14px;
+    color: #05b2dd;
+    border: 1px solid #05b2dd;
+}
+.m-give-money textarea {
+    width: 703px;
+    height: 76px;
+    border: 1px solid #05b2dd;
+    border-radius: 4px;
+    text-indent: 2em;
+    padding-top: 10px;
+    margin-top: 40px;
+    overflow: auto;
+    vertical-align: top;
+    resize: none;
+}
+.m-give-money .sub {
+    width: 705px;
+    height: 42px;
+    line-height: 42px;
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+    background: #05b2dd;
+    border-radius: 6px;
+    margin-top: 12px;
+    border: 0 none;
+    cursor: pointer;
+}
+/*-----弹框公共部分-----*/
+    .m-popup{
+        width: 740px;
+        height: 580px;
+        position: fixed;
+        top: 10%;
+        left: 50%;
+        margin-left: -400px;
+        z-index: 1000;
+        background: #fff;
+        padding: 40px 30px 30px;
+    }
+    .m-popup .u-popup-close{
+        height: 23px;
+        width: 23px;
+        display: block;
+        cursor: pointer;
+        position: absolute;
+        right: 15px;
+        top: 15px;
+        background: url(/styles/images/common/sprite.png) no-repeat -130px -206px;
+    }
+    /*---弹框登录---*/
+.m-login-popup>h2{
+    font-family: "Microsoft YaHei";
+    margin-bottom: 30px;
+}
+.m-login-popup form{
+    display: inline-block;
+    vertical-align: top;
+    width: 400px;
+    margin: 10px 170px 0;
+}
+.m-login-popup ul li{
+    margin-bottom: 10px;
+}
+.m-login-popup ul li div input {
+    padding-left: 8px;
+    width: 390px;
+    height: 38px;
+    border: 1px solid #d2d2d2;
+}
+.m-login-popup ul li>span{
+        margin-top: 2px;
+    line-height: 18px;
+    margin-left: 3px;
+}
+.m-login-popup ul li label input{
+    height: 15px;
+    width: 15px;
+    vertical-align: sub;
+}
+.u-forget-password a{
+    margin-left: 265px;
+    text-decoration: underline;
+    color: #666;
+}
+.u-forget-password a:link,
+.u-forget-password a:visited,
+.u-forget-password a:hover{
+    text-decoration: underline;
+    color: #666;
+}
+.u-login-btn,.u-register-btn{
+    width: 160px;
+    height: 38px;
+    border: 1px solid #00b7ee;
+    display: inline-block;
+    margin-left: 0px;
+    text-align: center;
+    line-height: 38px;
+    font-size: 14px;
+    background: #00b7ee;
+    color: #fff;
+}
+.u-register-btn{
+    margin-left:60px; 
+    color: #00b7ee;
+    background: #fff;
+}
+.u-register-btn:hover{
+    color: #00b7ee;
+}
+.m-login-popup ul li.u-forget-password {
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+.u-other-login{
+    width: 324px;
+    border-top: 1px solid #d2d2d2;
+        margin: 32px auto 0;
+}
+.u-other-login>span{
+    display: inline-block;
+    text-align: center;
+    width: 165px;
+    margin: -12px 0 0 80px;
+    background: #fff;
+    font-size: 16px;
+    color: #666;
+}
+.u-other-login dl{
+    display: inline-block;
+}
+.u-other-login dl dd{
+    color: #333;
+    font-size: 14px;
+    margin-top: 15px;
+}
+.u-other-login dl dt a{
+    width: 51px;
+    height: 50px;
+    display: block;
+    background-image: url(/styles/images/common/sprite.png); 
+        margin: 0 auto;
+}
+.u-weibo-login a{
+    background-position: -129px -115px;
+}
+.u-wechat-login a{
+    background-position: -183px -115px;
+}
+.u-QQ-login a{
+    background-position: -237px -115px;
+}
+.u-wechat-login{
+    margin: 0 65px;
+}
+.u-other-login>div{
+    padding: 0 10px;
+        margin-top: 15px;
+}
+
+/*这里是因为没有微信登陆*/
+/*.u-weibo-login{*/
+    /*margin-left: 70px;*/
+/*}*/
+/*.u-QQ-login{*/
+    /*margin-left:50px;*/
+/*}*/
+/*这里是因为没有微信登陆*/
+  /*---弹框登录---*/
+
+/*微信登陆弹框*/
+.login_container {
+    width: 300px;
+    height: 400px;
+    position: fixed;
+    z-index: 1100;
+    left: 50%;
+    top: 50%;
+    margin-left : -150px;
+    margin-top: -200px;
+}
+/*未登录提示登录*/
+.u-bookDetail-notLogged{
+    border:1px solid #bbb;
+}
+.u-bookDetail-notLogged span{
+    text-align: center;
+    display: block;
+    margin-top: 40px;
+    color: #aaa;
+}
+.u-bookDetail-notLogged span a{
+    width: 36px;
+    height: 22px;
+    text-align: center;
+    line-height: 22px;
+    border-radius: 4px;
+    color: #fff;
+    background: #00b7ee;
+    display: inline-block;
+    margin-right: 5px;
+}
+/*页尾*/
+    .m-foot {
+        font-size: 0;
+        padding-top: 35px;
+        color: #333;
+        background-color: #fff;
+        border-top: 1px solid #eee;
+    }
+
+    .m-foot dl {
+        display: inline-block;
+        vertical-align: top;
+        margin-right: 70px;
+    }
+
+    .u-foot-logo {
+
+    }
+
+    .u-foot-logo dt {
+        width: 118px;
+        height: 158px;
+        display: block;
+    }
+
+    .u-foot-logo dt img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .u-foot-other {
+        font-size: 14px;
+        color: #333;
+        margin-top: 30px;
+    }
+
+    .u-foot-other a:hover {
+        color: #fd4c5d;
+        text-decoration: underline;
+    }
+
+    .u-foot-other a {
+        display: block;
+        margin-bottom: 10px;
+        cursor: pointer;
+        color: #333;
+    }
+
+    .u-foot-contact {
+        font-size: 14px;
+        color: #333;
+        margin-top: 30px;
+    }
+
+    .u-foot-contact {
+
+    }
+
+    .u-foot-contact dd {
+        margin-bottom: 10px;
+    }
+
+    .u-foot-beian a p {
+        height: 20px;
+        line-height: 20px;
+        margin: 0px 10px 0px 5px;
+        color: #333;
+        display: inline-block;
+        vertical-align: top;
+    }
+
+    .u-foot-beian > p {
+        display: inline-block;
+        vertical-align: top;
+        margin-top: -2px;
+    }
+
+    .u-friendship {
+        color: #fff;
+        padding: 22px 0;
+    }
+
+    .u-fri-con span {
+        font-size: 14px;
+        display: inline-block;
+    }
+
+    .u-fri-con a {
+         font-size: 14px;
+    display: inline-block;
+    color: #333;
+    margin: 0 0 14px;
+    width: 85px;
+    padding: 0 10px;
+    text-align: center;
+    vertical-align: middle;
+    border-right: 1px solid #5f5f5f;
+    line-height: 14px;
+    }
+    .u-fri-con-link {
+        color: #333;
+        display: inline-block;
+        width: 1085px;
+    }
+
+    .u-fri-con a:hover {
+
+    }
+
+    .u-fri-con > span {
+        color: #333;
+        width: 70px;
+        vertical-align: top;
+    }
+
+    .m-foot dl.u-foot-QRcode {
+        margin-right: 0;
+        margin-left: 80px;
+        margin-top: -15px;
+    }
+
+    .u-foot-QRcode dt span {
+        display: inline-block;
+        width: 115px;
+        font-size: 14px;
+        color: #333;
+        text-align: center;
+        margin-right: 50px;
+        line-height: 36px;
+    }
+
+    .u-foot-QRcode dd {
+        /*width: 115px;*/
+        height: 115px;
+        display: inline-block;
+    }
+
+    .u-foot-QRcode dd img {
+        display: inline-block;
+        width: 115px;
+        height: 115px;
+        margin-right: 50px;
+    }
+
+
+
+/*登录弹窗*/
+ .m-popup-login{
+        position: fixed;
+    top: 25%;
+    left: 50%;
+    z-index: 1000;
+    margin-left: -300px;
+    width: 545px;
+    height: 350px;
+    background: #ffffff;
+    border-radius: 4px;
+    padding: 35px 40px;
+    box-shadow: 1px 0px 20px #232323;
+}
+.u-popuplogin-img{
+    width: 245px;
+    display: inline-block;
+    vertical-align: top;
+}
+.u-popup-login{
+    margin-left: 45px;
+    width: 250px;
+    display: inline-block;
+    vertical-align: top;
+}
+.u-popup-login form{
+    display: inline-block;
+    vertical-align: top;
+    width: 250px;
+}
+.u-popup-login ul li div input{
+    padding-left: 8px;
+    width: 230px;
+    height: 38px;
+    border: 1px solid #d7d7d7;
+    border-radius: 4px;
+    background: #fff;
+    margin-bottom: 18px;
+}
+.u-popup-login ul li.u-popuplogin-forget {
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+.u-popuplogin-forget a {
+    margin-left: 108px;
+    text-decoration: underline;
+    color: #666;
+}
+
+.u-popuplogin-forget a:link,
+.u-popuplogin-forget a:visited,
+.u-popuplogin-forget a:hover{
+    text-decoration: underline;
+    color: #666;
+}
+.u-popuplogin-login,.u-popuplogin-register{
+    width: 240px;
+    height: 40px;
+    padding: 0;
+    border: 1px solid #00b7ee;
+    border-radius: 4px;
+    display: inline-block;
+    margin-left: 0px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 14px;
+    background: #00b7ee;
+    color: #fff;
+}
+
+.m-login-popup ul li.u-popuplogin-forget {
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+.u-popuplogin-other{
+    width: 240px;
+    border-top: 1px solid #d2d2d2;
+        margin: 32px auto 0;
+}
+.u-popuplogin-other>span{
+    display: inline-block;
+    text-align: center;
+    padding: 0 5px;
+    margin: -12px 0 0 90px;
+    background: #fff;
+    font-size: 16px;
+    color: #666;
+}
+.u-popuplogin-other dl{
+    display: inline-block;
+}
+.u-popuplogin-other dl dd{
+    color: #333;
+    font-size: 14px;
+    margin-top: 15px;
+}
+.u-popuplogin-other dl dt a{
+    width: 51px;
+    height: 50px;
+    display: block;
+    background-image: url(/styles/images/common/sprite.png); 
+        margin: 0 auto;
+}
+.u-weibo-login a{
+    background-position: -129px -115px;
+}
+.u-wechat-login a{
+    background-position: -183px -115px;
+}
+.u-QQ-login a{
+    background-position: -237px -115px;
+}
+.u-wechat-login{
+    margin: 0 32px;
+}
+.u-popuplogin-other>div{
+    padding: 0 5px;
+        margin-top: 15px;
+        font-size: 0;
+}
+.u-popuplogin-forget label input{
+    margin: 0px 3px 0 0;
+    vertical-align: text-bottom;
+}
+.u-popuplogin-close{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 19px;
+    height: 19px;
+    cursor: pointer;
+    display: block;
+    background: url(/styles/images/common/close-19.png) center center no-repeat;
+}
