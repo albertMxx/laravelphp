@@ -16,14 +16,10 @@ Route::get('/', function () {
     return view('index');
 });
 
-Route::get('/user', function () {
-    return view('user');
+Route::get('/userEntrance', function () {
+    return view('user/loginAndRegister');
 });
 
-Route::get('/bill/index', function () {
+Route::get('/bill', function () {
     return view('/bill/index');
-});
-
-Route::get('/login', function () {
-    return view('/login');
 });

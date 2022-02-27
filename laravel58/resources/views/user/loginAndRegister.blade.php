@@ -89,10 +89,9 @@
             </figure>
 
             <figure class="col-md-4 col-md-offset-4">
-                <a href="#" class="fh5co-post-prev"><span><i class="icon-login"></i>登录</span></a>
-                <a href="#" class="fh5co-post-next"><span>注册<i class="icon-add-user"></i></span></a>
+                <a href="#" id="but_login" class="fh5co-post-prev"><span><i class="icon-login"></i>登录</span></a>
+                <a href="#" id="but_register" class="fh5co-post-next"><span>注册<i class="icon-add-user"></i></span></a>
             </figure>
-
         </article>
     </div>
 </div>
@@ -114,5 +113,9 @@
 <script src="/js/respond.min.js"></script>
 
 </body>
+
+<script>
+    
+</script>
 </html>
 

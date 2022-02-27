@@ -37,9 +37,9 @@
     <div class="fh5co-menu">
         <div class="fh5co-box">
             <ul>
-                <li><a href="index.php/user"><i class="icon-user"></i></a></li>
+                <li><a href="index.php/userEntrance"><i class="icon-user"></i></a></li>
                 <li><a href="#">博客</a></li>
-                <li><a href="#">个人账单</a></li>
+                <li><a href="index.php/bill">个人账单</a></li>
                 <li><a href="#">隐私日记</a></li>
                 <li><a href="#"><i class="icon-log-out"></i></a></li>
             </ul>
