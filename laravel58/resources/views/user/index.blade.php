@@ -23,35 +23,6 @@
     <!-- Bootstrap  -->
     <link rel="stylesheet" href="/css/bootstrap.css">
     <link rel="stylesheet" href="/css/style.css">
-
-    <style>
-        .fh5co-post-prev {
-            min-width: 15%;
-            left: 18%;
-            margin-left: -25px;
-            margin-top: 10px;
-        }
-
-        .fh5co-post-prev:hover {
-            left: 18%;
-            margin-left: 10px;
-            color: #000;
-        }
-
-        .fh5co-post-next {
-            min-width: 15%;
-            right: 18%;
-            margin-right: -25px;
-            margin-top: 10px;
-        }
-
-        .fh5co-post-next:hover {
-            right: 18%;
-            margin-right: 10px;
-            color: #000;
-        }
-
-    </style>
 </head>
 <body>
 
@@ -70,18 +41,20 @@
         <article id="user_form"
                  class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-6 col-sm-offset-4 col-xs-12 col-xs-offset-0">
             <figure class="animate-box col-md-8 col-md-offset-2">
-                <span class="fh5co-meta">昵称</span>
-                <input type="text" id="username" name="username" class="form-control" placeholder="昵称">
+                <b class="fh5co-meta">{{$user_data['username']}}</b>
             </figure>
 
-            <figure class="animate-box col-md-8 col-md-offset-2">
-                <span class="fh5co-meta">密码</span>
-                <input type="password" id="password" name="password" class="form-control" placeholder="密码">
+            <figure class="animate-box col-md-4 col-md-offset-4">
+                <span class="fh5co-meta">性别</span>
+                <select type="text" name="sex" id="sex" class="form-control">
+                    <option value="O">保密</option>
+                    <option value="M">男</option>
+                    <option value="F">女</option>
+                </select>
             </figure>
 
             <figure class="col-md-4 col-md-offset-4">
-                <a href="#" id="but_login" class="fh5co-post-prev"><span><i class="icon-login"></i>登录</span></a>
-                <a href="#" id="but_register" class="fh5co-post-next"><span>注册<i class="icon-add-user"></i></span></a>
+                <a href="#" id="but_save"><span><i class="icon-save"></i>保存</span></a>
             </figure>
         </article>
     </div>
@@ -109,26 +82,12 @@
 
 <script type="text/javascript">
     $(function () {
-        $("#but_login").unbind('click').click(function () {
+        $("#but_save").unbind('click').click(function () {
             var params = _.sendForm('user_form');
             if (!params) {
                 return false;
             }
-            _.postData('/index.php/userLogin', params, function (result) {
-                if (result.status == 200) {
-                    location.href = '/';
-                } else {
-                    _.confirm(result.msg);
-                }
-            });
-        });
-
-        $("#but_register").unbind('click').click(function () {
-            var params = _.sendForm('user_form');
-            if (!params) {
-                return false;
-            }
-            _.postData('/index.php/userRegister', params, function (result) {
+            _.postData('/index.php/userInfoSave', params, function (result) {
                 if (result.status == 200) {
                     _.alert(result.msg);
                 } else {

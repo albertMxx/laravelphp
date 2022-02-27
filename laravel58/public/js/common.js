@@ -261,7 +261,7 @@ window._ = {
         $("#alert-msg-info,#alert-msg-info-shadow").remove();
         var div = '<div id="alert-msg-info-shadow" style="width: 100%;position: fixed;background-color:#000000;opacity:0.38;text-align: center;z-index: 9998;top:0;"></div>';
         div += '<div id="alert-msg-info" style="width: 100%;position: fixed;z-index: 9999;top:0;padding-top: ' + pad + 'px">' +
-            '<div style="width: 30%;margin:0 auto;height: auto;padding:20px;background-color:#FFFFFF;display: block;box-shadow: 0 2px 8px rgba(0, 0, 0, .24);"><div>' +
+            '<div style="width: 80%;margin:0 auto;height: auto;padding:20px;background-color:#FFFFFF;display: block;box-shadow: 0 2px 8px rgba(0, 0, 0, .24);"><div>' +
             '<a style="font-size: 16px;font-family: \'Microsoft YaHei\';">' + msg + '</a></div>' +
             '<div style="margin-top: 12px;text-align: right;font-size: 15px;">' +
             '<a id="confirm-cancel" style="height: 30px;padding: 8px;border-radius: 4px;color:#2AB4EB;cursor: pointer; ">取消</a>' +
