@@ -67,8 +67,8 @@
 <!-- END #fh5co-header -->
 <div class="container-fluid">
     <div class="row fh5co-post-entry single-entry">
-        <article
-                class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-6 col-sm-offset-4 col-xs-12 col-xs-offset-0">
+        <article id="user_form"
+                 class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-6 col-sm-offset-4 col-xs-12 col-xs-offset-0">
             <figure class="animate-box col-md-8 col-md-offset-2">
                 <span class="fh5co-meta">昵称</span>
                 <input type="text" id="username" name="username" class="form-control" placeholder="昵称">
@@ -112,10 +112,24 @@
 <!--[if lt IE 9]>-->
 <script src="/js/respond.min.js"></script>
 
+
+<script src="/js/common.js"></script>
 </body>
 
-<script>
-    
+<script type="text/javascript">
+    $(function () {
+        $("#but_login").unbind('click').click(function () {
+            var params = _.sendForm('user_form');
+            if (!params) {
+                return false;
+            }
+            _.postData('/index.php/userLogin', params, function (result) {
+                if (result.status == 200) {
+                    location.href = '';
+                }
+            });
+        });
+    });
 </script>
 </html>
 

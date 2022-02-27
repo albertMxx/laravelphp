@@ -15,11 +15,15 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('index');
 });
-
 Route::get('/userEntrance', function () {
     return view('user/loginAndRegister');
 });
-
 Route::get('/bill', function () {
     return view('/bill/index');
 });
+Route::post('/userLogin', 'UserController@login');
+# must be logged in
+Route::middleware(['login'])->group(function () {
+
+});
+
