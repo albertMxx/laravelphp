@@ -23,6 +23,15 @@
     <!-- Bootstrap  -->
     <link rel="stylesheet" href="/css/bootstrap.css">
     <link rel="stylesheet" href="/css/style.css">
+
+    <style type="text/css">
+        body {
+            background: -webkit-linear-gradient(to top, rgba(255, 255, 255, 0), rgba(0, 80, 60, 0.6));
+            background: -o-linear-gradient(to top, rgba(255, 255, 255, 0), rgba(0, 80, 60, 0.6));
+            background: -moz-linear-gradient(to top, rgba(255, 255, 255, 0), rgba(0, 80, 60, 0.6));
+            background: linear-gradient(to top, rgba(255, 255, 255, 0), rgba(0, 80, 60, 0.6));
+        }
+    </style>
 </head>
 <body>
 

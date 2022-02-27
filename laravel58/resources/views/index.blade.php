@@ -24,6 +24,16 @@
     <link rel="stylesheet" href="/css/bootstrap.css">
 
     <link rel="stylesheet" href="/css/style.css">
+
+    <style type="text/css">
+        body {
+            background: -webkit-linear-gradient(to right bottom, rgba(0, 100, 100, 0.1), rgba(0, 40, 60, 0.6));
+            background: -o-linear-gradient(to right bottom, rgba(0, 100, 100, 0.1), rgba(0, 40, 60, 0.6));
+            background: -moz-linear-gradient(to right bottom, rgba(0, 100, 100, 0.1), rgba(0, 40, 60, 0.6));
+            background: linear-gradient(to right bottom, rgba(0, 100, 100, 0.1), rgba(0, 40, 60, 0.6));
+        }
+    </style>
+
 </head>
 <body>
 <div id="fh5co-offcanvas">
@@ -67,7 +77,24 @@
             <!--<span class="fh5co-meta"><a href="single.html">Food &amp; Drink</a></span>-->
             <span class="fh5co-meta fh5co-date">time</span>
             {{--<figure>--}}
-            {{--<a href="single.html"><img src="images/pic_1.jpg" alt="Image" class="img-responsive"></a>--}}
+            {{--<a href="single.html">--}}
+            {{--<img src="images/pic_1.jpg" alt="Image" class="img-responsive">--}}
+            {{--</a>--}}
+            {{--</figure>--}}
+            <div class="fh5co-highlight right">
+                <div>
+                    content.....
+                </div>
+            </div>
+        </article>
+        <article class="col-lg-3 col-md-3 col-sm-3 col-xs-6 col-xxs-12 animate-box">
+            <h2 class="fh5co-article-title"><a href="single.html">blog（developing）</a></h2>
+            <!--<span class="fh5co-meta"><a href="single.html">Food &amp; Drink</a></span>-->
+            <span class="fh5co-meta fh5co-date">time</span>
+            {{--<figure>--}}
+            {{--<a href="single.html">--}}
+            {{--<img src="images/pic_1.jpg" alt="Image" class="img-responsive">--}}
+            {{--</a>--}}
             {{--</figure>--}}
             <div class="fh5co-highlight right">
                 <div>
