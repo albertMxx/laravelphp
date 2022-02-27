@@ -63,16 +63,16 @@
 <div class="container-fluid">
     <div class="row fh5co-post-entry">
         <article class="col-lg-3 col-md-3 col-sm-3 col-xs-6 col-xxs-12 animate-box">
-            <h2 class="fh5co-article-title"><a href="single.html">We Eat and Drink All Night</a></h2>
+            <h2 class="fh5co-article-title"><a href="single.html">blog（developing）</a></h2>
             <!--<span class="fh5co-meta"><a href="single.html">Food &amp; Drink</a></span>-->
-            <span class="fh5co-meta fh5co-date">March 6th, 2016</span>
+            <span class="fh5co-meta fh5co-date">time</span>
             {{--<figure>--}}
             {{--<a href="single.html"><img src="images/pic_1.jpg" alt="Image" class="img-responsive"></a>--}}
             {{--</figure>--}}
             <div class="fh5co-highlight right">
-                <h4>Highlight</h4>
-                <p>Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A
-                    small river named Duden flows by their place and supplies it with the necessary regelialia</p>
+                <div>
+                    content.....
+                </div>
             </div>
         </article>
     </div>
@@ -80,7 +80,7 @@
 
 <footer id="fh5co-footer">
     <p>
-        <small>&copy; 2022-albertMao</small>
+        <small>&copy; 2022 -- albertMao</small>
     </p>
 </footer>
 
