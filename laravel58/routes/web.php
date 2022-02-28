@@ -12,6 +12,9 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 */
 
+#测试 & php学习
+Route::any('/test', 'TestController@test')->middleware('test');
+
 #首页
 Route::get('/', function () {
     return view('index');

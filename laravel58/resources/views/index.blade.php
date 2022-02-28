@@ -30,7 +30,7 @@
             background: -webkit-linear-gradient(to right bottom, rgba(0, 100, 100, 0.1), rgba(0, 40, 60, 0.6));
             background: -o-linear-gradient(to right bottom, rgba(0, 100, 100, 0.1), rgba(0, 40, 60, 0.6));
             background: -moz-linear-gradient(to right bottom, rgba(0, 100, 100, 0.1), rgba(0, 40, 60, 0.6));
-            background: linear-gradient(to right bottom, rgba(0, 100, 100, 0.1), rgba(0, 40, 60, 0.6));
+            background: linear-gradient(to right bottom, rgba(0, 100, 100, 0.1), rgba(0, 40, 60, 0.4));
         }
     </style>
 
@@ -38,7 +38,7 @@
 <body>
 <div id="fh5co-offcanvas">
     <a href="#" class="fh5co-close-offcanvas js-fh5co-close-offcanvas"><span><i
-                    class="icon-cross3"></i> <span>Close</span></span></a>
+                class="icon-cross3"></i> <span>Close</span></span></a>
     <div class="fh5co-bio">
         <h2>Hi friend!</h2>
         <p>一个小码农的生活工作小工具<br> -- albertMao</p>
@@ -48,9 +48,9 @@
         <div class="fh5co-box">
             <ul>
                 <li><a href="index.php/user"><i class="icon-user"></i></a></li>
+                <li><a href="index.php/memorandum">备忘录</a></li>
                 <li><a href="#">博客</a></li>
                 <li><a href="index.php/bill">个人账单</a></li>
-                <li><a href="#">隐私日记</a></li>
                 <li><a href="#"><i class="icon-log-out"></i></a></li>
             </ul>
         </div>
@@ -72,8 +72,56 @@
 <!-- END #fh5co-header -->
 <div class="container-fluid">
     <div class="row fh5co-post-entry">
-        <article class="col-lg-3 col-md-3 col-sm-3 col-xs-6 col-xxs-12 animate-box">
-            <h2 class="fh5co-article-title"><a href="single.html">blog（developing）</a></h2>
+        <article class="col-lg-6 col-md-6 col-sm-6 animate-box">
+            <b class="fh5co-article-title">memorandum</b>
+            <span class="fh5co-meta fh5co-date" id="elapse"></span>
+            <div style="background: url('images/single_1.jpg')" class="right">
+                <div>
+                    content.....111
+                    content.....2222
+                    content.....33
+
+                    content.....4
+                    content.....55555555555
+                    content.....6666
+                </div>
+            </div>
+        </article>
+        <article class="col-lg-6 col-md-6 col-sm-6 col-xs-6 col-xxs-12 animate-box">
+            <b class="fh5co-article-title">blog（developing）</b>
+            <!--<span class="fh5co-meta"><a href="single.html">Food &amp; Drink</a></span>-->
+            <span class="fh5co-meta fh5co-date">time</span>
+            {{--<figure>--}}
+            {{--<a href="single.html">--}}
+            {{--<img src="images/pic_1.jpg" alt="Image" class="img-responsive">--}}
+            {{--</a>--}}
+            {{--</figure>--}}
+            <div class="fh5co-highlight right">
+                <div>
+                    content.....
+                    content.....
+                </div>
+            </div>
+        </article>
+        <article class="col-lg-6 col-md-6 col-sm-6 col-xs-6 col-xxs-12 animate-box">
+            <b class="fh5co-article-title">blog（developing）</b>
+            <!--<span class="fh5co-meta"><a href="single.html">Food &amp; Drink</a></span>-->
+            <span class="fh5co-meta fh5co-date">time</span>
+            {{--<figure>--}}
+            {{--<a href="single.html">--}}
+            {{--<img src="images/pic_1.jpg" alt="Image" class="img-responsive">--}}
+            {{--</a>--}}
+            {{--</figure>--}}
+            <div class="fh5co-highlight right">
+                <div>
+                    content.....
+                    content.....
+                    content.....
+                </div>
+            </div>
+        </article>
+        <article class="col-lg-6 col-md-6 col-sm-6 col-xs-6 col-xxs-12 animate-box">
+            <b class="fh5co-article-title">blog（developing）</b>
             <!--<span class="fh5co-meta"><a href="single.html">Food &amp; Drink</a></span>-->
             <span class="fh5co-meta fh5co-date">time</span>
             {{--<figure>--}}
@@ -87,8 +135,79 @@
                 </div>
             </div>
         </article>
-        <article class="col-lg-3 col-md-3 col-sm-3 col-xs-6 col-xxs-12 animate-box">
-            <h2 class="fh5co-article-title"><a href="single.html">blog（developing）</a></h2>
+        <article class="col-lg-6 col-md-6 col-sm-6 col-xs-6 col-xxs-12 animate-box">
+            <b class="fh5co-article-title">blog（developing）</b>
+            <!--<span class="fh5co-meta"><a href="single.html">Food &amp; Drink</a></span>-->
+            <span class="fh5co-meta fh5co-date">time</span>
+            {{--<figure>--}}
+            {{--<a href="single.html">--}}
+            {{--<img src="images/pic_1.jpg" alt="Image" class="img-responsive">--}}
+            {{--</a>--}}
+            {{--</figure>--}}
+            <div class="fh5co-highlight right">
+                <div>
+                    content.....
+                </div>
+            </div>
+        </article>
+        <article class="col-lg-6 col-md-6 col-sm-6 col-xs-6 col-xxs-12 animate-box">
+            <b class="fh5co-article-title">blog（developing）</b>
+            <!--<span class="fh5co-meta"><a href="single.html">Food &amp; Drink</a></span>-->
+            <span class="fh5co-meta fh5co-date">time</span>
+            {{--<figure>--}}
+            {{--<a href="single.html">--}}
+            {{--<img src="images/pic_1.jpg" alt="Image" class="img-responsive">--}}
+            {{--</a>--}}
+            {{--</figure>--}}
+            <div class="fh5co-highlight right">
+                <div>
+                    content.....
+                    content.....
+                    content.....
+                    content.....
+                    content.....
+                </div>
+            </div>
+        </article>
+        <article class="col-lg-6 col-md-6 col-sm-6 col-xs-6 col-xxs-12 animate-box">
+            <b class="fh5co-article-title">blog（developing）</b>
+            <!--<span class="fh5co-meta"><a href="single.html">Food &amp; Drink</a></span>-->
+            <span class="fh5co-meta fh5co-date">time</span>
+            {{--<figure>--}}
+            {{--<a href="single.html">--}}
+            {{--<img src="images/pic_1.jpg" alt="Image" class="img-responsive">--}}
+            {{--</a>--}}
+            {{--</figure>--}}
+            <div class="fh5co-highlight right">
+                <div>
+                    content.....
+                    content.....
+                    content.....
+                </div>
+            </div>
+        </article>
+        <article class="col-lg-6 col-md-6 col-sm-6 col-xs-6 col-xxs-12 animate-box">
+            <b class="fh5co-article-title">blog（developing）</b>
+            <!--<span class="fh5co-meta"><a href="single.html">Food &amp; Drink</a></span>-->
+            <span class="fh5co-meta fh5co-date">time</span>
+            {{--<figure>--}}
+            {{--<a href="single.html">--}}
+            {{--<img src="images/pic_1.jpg" alt="Image" class="img-responsive">--}}
+            {{--</a>--}}
+            {{--</figure>--}}
+            <div class="fh5co-highlight right">
+                <div>
+                    content.....
+                    content.....
+                    content.....
+                    content.....
+                    content.....
+                    content.....
+                </div>
+            </div>
+        </article>
+        <article class="col-lg-6 col-md-6 col-sm-6 col-xs-6 col-xxs-12 animate-box">
+            <b class="fh5co-article-title">blog（developing）</b>
             <!--<span class="fh5co-meta"><a href="single.html">Food &amp; Drink</a></span>-->
             <span class="fh5co-meta fh5co-date">time</span>
             {{--<figure>--}}
@@ -129,5 +248,18 @@
 <script src="/js/respond.min.js"></script>
 
 </body>
+
+<script type="text/javascript">
+    var h, i, s;
+    setInterval("elapse()", 1000);
+
+    function elapse() {
+        var t = new Date();
+        h = t.getHours();
+        i = t.getMinutes();
+        s = t.getSeconds();
+        $("#elapse").text(h + ':' + i + ':' + s);
+    }
+</script>
 </html>
 
